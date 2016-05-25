@@ -51,11 +51,11 @@ composer require "twig/twig:~1.0"
 
 echo "Twig done"
 
-sudo apt-get install software-properties-common python-software-properties
-sudo add-apt-repository ppa:chris-lea/node.js  
-sudo apt-get install nodejs
-sudo apt-get install git
-sudo npm install bower
+yes Y | sudo apt-get install software-properties-common python-software-properties
+yes Y | sudo add-apt-repository ppa:chris-lea/node.js  
+yes Y | sudo apt-get install nodejs
+yes Y | sudo apt-get install git
+yes Y | sudo npm install bower
 
 # git clone https://github.com/zurb/foundation-sites-template foundation
 # cd foundation
@@ -63,10 +63,13 @@ sudo npm install bower
 # bower install
 # cd ..
 
-sudo npm install --global gulp-cli
+yes Y | sudo npm install --global gulp-cli
 sudo npm update
 
 echo "Layout files done"
+
+cd /vagrant/
+sudo npm install gulp
 
 sudo su
 sudo echo "<VirtualHost *:80>
