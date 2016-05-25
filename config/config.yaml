@@ -1,0 +1,7 @@
+configs: 
+   use: 'local'
+   local:
+       'db': "wpdb"
+       'db_usr': "wpuser"
+       'db_pass': "suvilahti55"
+       'db_pass_root': “suvilahti55"

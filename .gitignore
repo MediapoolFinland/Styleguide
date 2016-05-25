@@ -1,0 +1,6 @@
+.phpintel
+.vagrant
+npm-debug.log
+composer.lock
+vendor
+node_modules
