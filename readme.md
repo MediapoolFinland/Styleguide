@@ -1,4 +1,5 @@
 Mediapool Styleguide
+====================
 
 1. Individual layout elements isolated into small, independent code blocks.
 2. HTML structure is rendered from .twig -files
