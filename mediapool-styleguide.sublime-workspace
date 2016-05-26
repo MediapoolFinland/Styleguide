@@ -1,0 +1,1226 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"showP",
+				"showProducts"
+			],
+			[
+				"slot",
+				"slotHtml"
+			],
+			[
+				"getchildsofc",
+				"getchildsofcategory"
+			],
+			[
+				"blog",
+				"blogHtml"
+			],
+			[
+				"sport",
+				"sportTermIds"
+			],
+			[
+				"cats",
+				"catsArray"
+			],
+			[
+				"allow",
+				"allowedCats"
+			],
+			[
+				"allo",
+				"allowedCats"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"dis",
+				"discountedKeys"
+			],
+			[
+				"discoun",
+				"discountedProducts"
+			],
+			[
+				"disc",
+				"discountedKeys"
+			],
+			[
+				"discou",
+				"discountedCategories"
+			],
+			[
+				"camu_discou",
+				"camu_discountlimit"
+			],
+			[
+				"camu_discoun",
+				"camu_discountlimit"
+			],
+			[
+				"clover",
+				"clover_shop_categories"
+			],
+			[
+				"clove",
+				"clover_shop_products"
+			],
+			[
+				"deta",
+				"detachs"
+			],
+			[
+				"det",
+				"detachs"
+			],
+			[
+				"cart-page",
+				"cart-page__product-row"
+			],
+			[
+				"combo-info-",
+				"combo-info-text"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"pacak",
+				"packageVal2"
+			],
+			[
+				"camu_packa",
+				"camu_package_val_2"
+			],
+			[
+				"comboH",
+				"comboHtmls"
+			],
+			[
+				"camu_pacak",
+				"camu_package_val_2"
+			],
+			[
+				"size3",
+				"size3_1"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"texta-",
+				"texta-bold"
+			],
+			[
+				"combo",
+				"comboData"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bigI",
+				"bigItemDeliveryPrice"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"product__titl",
+				"product__title--combo"
+			],
+			[
+				"product__",
+				"product__manufacturer--combo"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"width",
+				"widthClass"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"packa",
+				"packageVal2"
+			],
+			[
+				"camu_pca",
+				"camu_package_val_2"
+			],
+			[
+				"bing",
+				"bindingInfo"
+			],
+			[
+				"combo-ca",
+				"combo-category-box--inner"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"che",
+				"checkedClass"
+			],
+			[
+				"clover_sh",
+				"clover_shop_cart"
+			],
+			[
+				"clover_",
+				"clover_shop_products"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"pdo",
+				"prodID"
+			],
+			[
+				"clover_s",
+				"clover_shop_cart"
+			],
+			[
+				"product",
+				"$productId	mixed"
+			],
+			[
+				"item",
+				"item_ids"
+			],
+			[
+				"clover_sho",
+				"clover_shop_fi_categories"
+			],
+			[
+				"colorcl",
+				"colorClassArray"
+			],
+			[
+				"cs_product",
+				"cs_product_manufacturer_code"
+			],
+			[
+				"req",
+				"requirementTitle"
+			],
+			[
+				"camu_pack",
+				"camu_package_disabled"
+			],
+			[
+				"norwegian",
+				"norwegianEarns"
+			],
+			[
+				"produc",
+				"productTitle"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"ava",
+				"available"
+			],
+			[
+				"avai",
+				"available"
+			],
+			[
+				"product_cat",
+				"product_category_1"
+			],
+			[
+				"icon",
+				"iconSql"
+			],
+			[
+				"comb",
+				"comboName"
+			],
+			[
+				"product_ca",
+				"product_category_2"
+			],
+			[
+				"camu_si",
+				"camu_size2"
+			],
+			[
+				"sql",
+				"sqlAdd"
+			],
+			[
+				"sqlA",
+				"sqlAdds"
+			],
+			[
+				"check",
+				"checkboxes"
+			],
+			[
+				"brand",
+				"brandData"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"child",
+				"childClass"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"unit",
+				"unit_price_discount"
+			],
+			[
+				"error",
+				"error_message"
+			],
+			[
+				"myC",
+				"myCustomerInformation"
+			],
+			[
+				"svea",
+				"sveaOrderId"
+			],
+			[
+				"tmp",
+				"tmpPkoodi"
+			],
+			[
+				"colorSto",
+				"colorStorage"
+			],
+			[
+				"paymen",
+				"paymentMethod"
+			],
+			[
+				"pamen",
+				"paymentMethod"
+			],
+			[
+				"prod",
+				"prodCache"
+			],
+			[
+				"note",
+				"notextSearch"
+			],
+			[
+				"force",
+				"forceHiddenSearch"
+			],
+			[
+				"hidde",
+				"hiddenSearch"
+			],
+			[
+				"clover_shop",
+				"clover_shop_options"
+			],
+			[
+				"st",
+				"strchr"
+			],
+			[
+				"Kirja",
+				"Kirjailijakooste"
+			],
+			[
+				"Kirjailij",
+				"Kirjailijakoosteet"
+			],
+			[
+				"column",
+				"columnCount"
+			],
+			[
+				"fre",
+				"freerideLevels"
+			],
+			[
+				"climb",
+				"climbingLevels"
+			],
+			[
+				"woma",
+				"womanLevels"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"brna",
+				"brandCategories"
+			],
+			[
+				"get",
+				"getChildsOfCategory($catID, $targetLevel, $allowedCats)	mixed"
+			],
+			[
+				"bran",
+				"brandData"
+			],
+			[
+				"upload",
+				"uploadDir"
+			],
+			[
+				"uploa",
+				"uploadDir"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"BANNER",
+				"BANNER_URL"
+			],
+			[
+				"utf8",
+				"utf8_encode"
+			],
+			[
+				"only",
+				"$onlyDownloads〔variable〕"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"deliver",
+				"deliveryPrice"
+			],
+			[
+				"phpmail",
+				"PHPMailer〔class〕"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"str_rep",
+				"str_replace〔function〕"
+			],
+			[
+				"cate",
+				"category3"
+			],
+			[
+				"categ",
+				"category3"
+			],
+			[
+				"second",
+				"secondCategory"
+			],
+			[
+				"cs_op",
+				"cs_option_stock"
+			],
+			[
+				"colorCl",
+				"colorClassArrayTmp"
+			],
+			[
+				"colorClas",
+				"colorClassArray"
+			],
+			[
+				"colorClass",
+				"colorClassArray"
+			],
+			[
+				"catego",
+				"category4"
+			],
+			[
+				"category",
+				"category3"
+			],
+			[
+				"categor",
+				"category3"
+			],
+			[
+				"cs_pro",
+				"cs_product_category_id_4"
+			],
+			[
+				"availa",
+				"$availableOutdoors〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "Package Control: en",
+		"selected_items":
+		[
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in s",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tid",
+				"Tidy PHP"
+			],
+			[
+				"php",
+				"Tidy PHP"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"cssco",
+				"Sort via CSScomb"
+			],
+			[
+				"cssc",
+				"Sort via CSScomb"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"com",
+				"Sort via CSScomb"
+			],
+			[
+				"tidy",
+				"Tidy PHP"
+			],
+			[
+				"ti",
+				"Tidy PHP"
+			],
+			[
+				"traili",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Toggle Trailing Spaces Highlighting"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"code",
+				"Format Code"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"view.run_command(\"example\")",
+			"view.run_command(\"insertsnippetandclipboard\")",
+			"view.run_command(\"duplicate\")",
+			"view.run_command(\"example\")",
+			"view.run_command(\"AJV.Aapo\")",
+			"view.run_command(\"Aapo\")",
+			"view.run_command(\"ExampleCommand\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aapo/Sites/styleguide",
+		"/Users/aapo/Sites/styleguide/assets/css",
+		"/Users/aapo/Sites/styleguide/assets/scss",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts"
+	],
+	"file_history":
+	[
+		"/Users/aapo/Sites/styleguide/.gitignore",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#64/.htaccess",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/two-columns-with-images.scss",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/one-column.scss",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/hom.scss",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/tt.scss",
+		"/Users/aapo/Sites/styleguide/assets/css/app.css",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/three-columns-with-images.scss",
+		"/Users/aapo/Sites/styleguide/Vagrantfile",
+		"/Users/aapo/Sites/styleguide/config/config.yaml",
+		"/Users/aapo/Sites/styleguide/config/server.sh",
+		"/Users/aapo/Sites/styleguide/package.json",
+		"/Users/aapo/Sites/styleguide/gulpfile.js",
+		"/Users/aapo/Sites/styleguide/assets/scss/app.scss",
+		"/Users/aapo/Sites/styleguide/assets/scss/layouts/joku.scss",
+		"/Users/aapo/Sites/styleguide/readme.md",
+		"/Users/aapo/Sites/styleguide/assets/scss/custom/three-columns-with-images.scss",
+		"/Users/aapo/Sites/styleguide/wp-config.php",
+		"/Users/aapo/Sites/styleguide/twig/three-columns-with-images.twig",
+		"/Users/aapo/Sites/styleguide/layouts/index.php",
+		"/Users/aapo/Sites/styleguide/foundation/npm-debug.log",
+		"/Users/aapo/Sites/styleguide/assets/css/app.scss",
+		"/Users/aapo/Sites/styleguide/twig/three-columns-with-images.twig.php",
+		"/Users/aapo/Sites/styleguide/wp-content/themes/mediapool/templates/index.twig",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#63/.htaccess",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#60/activate_campaign_code.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#61/kauppa_shoppingcart.js",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#62/scripts.js",
+		"/Users/aapo/Sites/camushop/index.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/products.php",
+		"/Users/aapo/Sites/camushop/product_catalog.php",
+		"/Users/aapo/Sites/camushop/.gitignore",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#50/.htaccess",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#52/footer.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#53/header.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#58/content-single.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#59/content-page.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#57/content-page.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#56/content-page.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#55/content-single.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#54/single.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#51/.htaccess",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/RAJAPINTA/processXml.php",
+		"/Users/aapo/Sites/camushop/AJV/CSUtils.php",
+		"/Users/aapo/Sites/camushop/.htaccess",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#49/CSUtils.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/ajv-frontpages.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/ajv-brands.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/ajv-crud-banners.php",
+		"/Users/aapo/Sites/camushop/AJV/RedBeanCrud.php",
+		"/private/var/tmp/stash/0904dc1e8f6a73cd5de6f13246ad86db/Stash_Driver_FileSystem/0fea6a13c52b4d47/25368f24b045ca84/38a865804f8fdcb6/57cd99682e939275/3c06be77a86fb54e/fe38e921c3ffdcf4/a6012a60ad613c0b/8fefb074b8a517b1/c494d9524143b2eb/e567475e985c19f7.php",
+		"/Users/aapo/Sites/camushop/composer.json",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/config_adm.php",
+		"/Users/aapo/Sites/camushop/header.php",
+		"/Users/aapo/Sites/mediapool/2015/gruntfile.js",
+		"/Users/aapo/Sites/mediapool/2015/assets/css/src/general.less",
+		"/Users/aapo/Sites/mediapool/2015/package.json",
+		"/Users/aapo/Sites/camushop/stash/index.php",
+		"/Users/aapo/Sites/camushop/config_cat.php",
+		"/Users/aapo/Sites/camushop/assets/js/custom/Events.js",
+		"/Users/aapo/Sites/camushop/payment_gateways/suomen_verkkomaksut_ajax.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#39/emailreview.php",
+		"/Users/aapo/Sites/camushop/shopping_cart.php",
+		"/Users/aapo/Sites/camushop/payment_ajax.php",
+		"/Users/aapo/Sites/camushop/assets/scss/_combo.scss",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#35/job-offers.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#36/single-job_offer.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#37/custom-post-types.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#38/emailreviews.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#40/menu.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#46/adjust-style.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#45/style3.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#44/style2.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#43/style2.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#42/style.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#41/rukka-modern.css",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/categories.php",
+		"/Users/aapo/Sites/camushop/AJV/Combo.php",
+		"/Users/aapo/Sites/camushop/assets/js/custom/Cart-page.js",
+		"/Users/aapo/Sites/camushop/assets/scss/_cart-page.scss",
+		"/Users/aapo/Sites/camushop/assets/scss/_price.scss",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#31/cart-page.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#32/checkout.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#34/job-offers.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#33/linkkivinkkeja_sinne_se.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#30/SveaConfig.php",
+		"/Users/aapo/Sites/camushop/assets/js/custom/Init.js",
+		"/Users/aapo/Sites/camushop/assets/js/scripts.js",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/header.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#24/tools.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#25/wp-config.php",
+		"/Users/aapo/Sites/camushop/product_details.php",
+		"/Users/aapo/Sites/camushop/assets/js/custom/ProductPage.js",
+		"/Users/aapo/Sites/camushop/remove_from_combo.php",
+		"/Users/aapo/Sites/camushop/Gruntfile.js",
+		"/Users/aapo/Sites/camushop/assets/css/styles.css",
+		"/Users/aapo/Sites/camushop/mainConfig.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/RAJAPINTA/xmlStorage/products.xml",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#23/products.xml",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/settings.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#21/Combo.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#16/style.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#17/header.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#18/page_etusivu.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#19/footer.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#20/footer.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#15/style.css",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#14/content-page.php",
+		"/Users/aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/ajv-crud-combos.php",
+		"/Users/aapo/Sites/luhta/Fontti/LT-WebFonts-1142943268/demo.htm",
+		"/Users/aapo/Sites/luhta/Fontti/LT-WebFonts-1142943268/.htaccess",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#12/content-single.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#13/page.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#11/single.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#10/upload.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#9/upload.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#2/index.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#3/upload.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#4/upload.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#7/index.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#8/index.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#6/footer.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#5/header.php",
+		"/Users/aapo/Sites/camushop/assets/img/plus-icon.svg",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#1/processXml.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#0/processXml.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#3/sendCustomers.php",
+		"/Users/aapo/Library/Caches/com.binarynights.ForkLift2/#58/processXml.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.scss",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.php, *.js",
+			"",
+			"*.php",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.php",
+			"*.js",
+			"",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.scss",
+			"*.css",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.*",
+			"*.scss",
+			"*.php",
+			"*.js",
+			"",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.scss",
+			"/Users/Aapo/Sites/camushoptest/hallinta-camu-55-hhulji332jd-varma/RAJAPINTA/xmlStorage/done",
+			"",
+			"*.",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"/Users/Aapo/Sites/camushop/hallinta-camu-55-hhulji332jd-varma/RAJAPINTA/xmlStorage/done",
+			"*.php",
+			"*.js",
+			"",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.css",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"*.php",
+			"",
+			"*.css",
+			"",
+			"*.js",
+			"*.php",
+			"",
+			"/Users/Aapo/Sites/SWOT/swot",
+			"*.php,/Users/Aapo/Sites/SWOT/swot",
+			"*.js",
+			"*.php",
+			"*.js",
+			"",
+			"/Users/Aapo/Sites/joulukalenterit.fi/OAJ STANDALONE/",
+			"/Users/Aapo/Sites/joulukalenterit.fi/OAJ STANDALONE/luukut",
+			"*.txt,/Users/Aapo/Sites/joulukalenterit.fi/OAJ STANDALONE/luukut",
+			"",
+			"/Users/Aapo/Sites/finnanimation",
+			"",
+			"/Users/Aapo/Sites/joulukalenterit.fi",
+			"",
+			"/Users/Aapo/Sites/Fimage/backup",
+			"",
+			"call_user_func_ar",
+			"",
+			"/Users/Aapo/Sites/verkkokauppa",
+			"",
+			"/Users/aapo/Sites/luoja.fi/ladyt,/Users/aapo/Downloads/Bonfire-master",
+			"/Users/aapo/Sites/luoja.fi/ladyt",
+			"",
+			"/Users/aapo/Sites/tavaratila,*.php",
+			"/Users/aapo/Sites/tavaratila",
+			"*.js, *.css",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.php,/Users/aapo/Sites/toypap",
+			"*.php,/Users/aapo/Sites/PositiivinenYllatys.fi",
+			"*.php,/Users/aapo/Sites/aerial7",
+			"*.php",
+			"*.js,*.css",
+			"*.js",
+			"*.php",
+			"*.*",
+			"*.php",
+			"<open folders>, *.php",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"month",
+			"<div class=\"image-wrapper-image\"></div>",
+			"campaign",
+			"die",
+			"\"",
+			"_TUNNIT",
+			"_tunnit",
+			"tunnit",
+			"year",
+			"colors",
+			"prices",
+			", $",
+			"order_by =",
+			"showproducts",
+			"pool",
+			"product_catalog.php",
+			"save(",
+			"clear()",
+			"store",
+			"echo",
+			"$pool",
+			"pool",
+			"sizeClasses",
+			"ale",
+			"single",
+			"ul",
+			"id = ",
+			"POST",
+			"																		",
+			"																	",
+			"																",
+			"															",
+			"														",
+			"													",
+			"												",
+			"											",
+			"										",
+			"									",
+			"								",
+			"							",
+			"						",
+			"					",
+			"tediou",
+			"fonts/",
+			"fonts",
+			"price",
+			"combo-box-inner",
+			"combo-box-inn",
+			"50%",
+			"instru",
+			"var_d",
+			"bigItems",
+			"combo_price",
+			",00	",
+			",00",
+			"'discount'",
+			"\"discount\"",
+			"'discount'",
+			"comboids",
+			"camu_discountlimit",
+			"fi\"",
+			"fi",
+			"paketti",
+			"combo-info-text",
+			"foundation(",
+			"equaliz",
+			"combo-category-box",
+			"small-only",
+			"combo-category-box",
+			"width: 50%;",
+			"minimized",
+			"80%",
+			"-inner",
+			"round5",
+			"small-only",
+			"50%",
+			"foundation()",
+			"foundation('equalizer",
+			"equali",
+			"pretext-",
+			"pretext-hol",
+			"pretext",
+			"product-colu",
+			"title-hol",
+			"border:1p",
+			"autoprefi",
+			"styles.css",
+			"dist",
+			"monot",
+			"remove_from_combo.php",
+			"fits2",
+			"size2",
+			"SALGUARDIAN13",
+			"1,2",
+			"SALGUARDIAN13MNC",
+			"dev.mediapool.fi/luhta",
+			"SALGUARDIAN13MNC",
+			"quest pro 130",
+			"var_du",
+			"print_r",
+			"comboOption",
+			"size2",
+			"combo_p",
+			"ntn freedom",
+			"styles.css",
+			"dist",
+			"combo-info-title",
+			"info-title",
+			"title",
+			"minimized",
+			"match'>",
+			"strtolower",
+			"1",
+			"valitse",
+			"toggle-mini",
+			"combo-box-inner",
+			"small-3",
+			"equalizer",
+			"minimized",
+			"combo-info",
+			"xmini",
+			"prete",
+			"camu_package_margin",
+			"price",
+			"[$key]['combo']",
+			"combo-title",
+			"Fonts/",
+			"bigItems"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src=\"../i",
+			"../js/",
+			"../css/box2",
+			"i",
+			"=\"js/",
+			"=\"css/",
+			"",
+			"</tr>",
+			"",
+			">",
+			"",
+			"col",
+			"<table",
+			"",
+			"wp_",
+			"\",\"",
+			"",
+			"wp_bertha",
+			"cms/wp",
+			"bertha",
+			"wp_bertha"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/aapo/Sites/styleguide"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/flatmag/+SAITTI/flatmag.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
