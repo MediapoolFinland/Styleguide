@@ -2,6 +2,6 @@
 .vagrant
 npm-debug.log
 composer.lock
-vendor
+/vendor
 node_modules
 *.sublime*
