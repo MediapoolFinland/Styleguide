@@ -23,7 +23,7 @@ Usage:
 2. Add the corresponding scss-file to /assets/scss/layouts, with a similar name as the .twig -file plus an underscore as suffix (eq: **row--pretty.twig** & **_row--pretty.scss**)
 3. Link the twig-file to the layouts/index.php -file. Give each element an h2-level title + description paragraph. Use the render() -function to print out the actual element.
 4. The render-function takes two parameters, the name of the twig-file and an array containing the variables used in the twig templates.
-5. Open the layouts/index.php -file on your server and check the layout.
+5. Open the layouts/index.php -file on your server and check the layout. On a default Vagrant installation the url is http://192.168.33.10/layouts/
 
 Notes:
 ------
