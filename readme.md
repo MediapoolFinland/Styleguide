@@ -17,7 +17,7 @@ Installation:
 5. Coming up
 
 Usage:
-______
+------
 
 1. Add new element template files to /twig. Use specific, BEM-style naming.
 2. Add the corresponding scss-file to /assets/scss/layouts, with a similar name as the *.twig -file plus an underscore as suffix (eq: *row--pretty.twig* & *_row-pretty.scss*)
