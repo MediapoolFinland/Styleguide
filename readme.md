@@ -8,6 +8,8 @@ Mediapool Styleguide
 5. SCSS-files must be used as base files, all site-specific modifications have to be added in separate files that override necessary rules.
 
 Installation:
+-------------
+
 1. Install Vagrant
 2. Clone this repo to a folder
 3. Open terminal, navigate to folder
