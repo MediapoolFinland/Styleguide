@@ -1,11 +1,11 @@
 .element--styled-title { 
     $styled-title_height: 17px;
-    $styled-title_mobile_bkp: 480px;
     
     .header-with-bg {
-        height: $styled-title_height;
+        min-height: $styled-title_height;
         text-align: center;    
         line-height: 0; 
+        overflow: auto;
     }
     .block {
         padding: 0px 40px;
