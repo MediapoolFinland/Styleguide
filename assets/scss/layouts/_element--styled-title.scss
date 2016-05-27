@@ -8,11 +8,11 @@
         overflow: auto;
     }
     .block {
-        padding: 0px 40px;
+        padding: 0em 40px;
         display: inline-block;
         height: $styled-title_height;
         font-size: 13px;
-        line-height: 1;
+        line-height: $styled-title_height;
     }
     .bg-white {
         background-color: white;
