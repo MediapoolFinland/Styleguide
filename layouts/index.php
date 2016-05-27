@@ -40,13 +40,13 @@ function render($file, $dataArr = array()) {
 	<h2>Row with three columns</h2>
 		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
 		<?php
-		render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+		//render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 		?>
 		
 	<h2>Styled title</h2>
 	<p>Horizontal element with blocks on top of it. Vertical alignment for titles supports only a single line of text.</p>
 		<?php
-		render("element--styled-title.twig", array("image_basic" => "../assets/img/slashed-line-withmargins.png", "image_sides" => "../assets/img/dotted-line.png"));
+		//render("element--styled-title.twig", array("image_basic" => "../assets/img/slashed-line-withmargins.png", "image_sides" => "../assets/img/dotted-line.png"));
 		?>
 		
 	<h2>Hilighted articles</h2>

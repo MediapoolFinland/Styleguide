@@ -21,6 +21,11 @@
     .article-info {
         display: inline-block;
         vertical-align: top;
+        
+        &.mobile {
+            display: block;
+            width: 100%;
+        }
     }
     .article-smallimg {
         width: 90px;
@@ -37,7 +42,7 @@
         .article-title {
             height: 58px;
             font-size: 19px; 
-            line-height: 1.2;
+            line-height: 1.0;
         }
     }
     
