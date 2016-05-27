@@ -1,16 +1,17 @@
 .element--styled-title { 
     $styled-title_height: 17px;
     
-    .header-with-bg {
+    .title {
         min-height: $styled-title_height;
-        text-align: center;    
+        background-repeat: repeat;
         line-height: 0; 
+        text-align: center;    
         overflow: auto;
     }
     .block {
-        padding: 0em 40px;
         display: inline-block;
         height: $styled-title_height;
+        padding: 0em 40px;
         font-size: 13px;
         line-height: $styled-title_height;
     }
@@ -21,21 +22,5 @@
     .bg-black {
         background-color: black;
         color: white;
-    }
-     
-    .slashed-line-withmargins,
-    .slashed-line,
-    .dotted-line {
-        background-repeat: repeat;
-    }
-    .dotted-line {
-        background: url("../img/dotted-line.png");
-    }    
-    .slashed-line-withmargins {
-        background: url("../img/slashed-line-withmargins.png");
-        background-repeat: repeat-x; 
-    }    
-    .slashed-line {
-        background: url("../img/slashed-line.png");
     }
 }
