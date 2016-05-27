@@ -2,14 +2,14 @@
 <h3>Basic version</h3>
 <div class="element--styled-title">
     <div class="title" style="background-image: url({{image_basic}});">
-        <div class="block bg-white">This is a title</div>                        
+        <div class="block bg-white">{{ title }}</div>                        
     </div>
 </div>
 <h3>With blocks on the sides</h3>
 <div class="element--styled-title">
     <div class="title" style="background-image: url({{image_sides}});">
-        <div class="block bg-black float-left">Read more</div>
-        <div class="block bg-white hide-for-small-only">This is a title</div>
-        <div class="block bg-black float-right">Some icons</div>
+        <div class="block bg-black float-left">{{ leftblock }}</div>
+        <div class="block bg-white hide-for-small-only">{{ title }}</div>
+        <div class="block bg-black float-right">{{ rightblock }}</div>
     </div>
 </div>
