@@ -50,7 +50,7 @@ function render($file, $dataArr = array()) {
 		?>
 		
 	<h2>Hilighted articles</h2>
-	<p>Two article  side by side.</p>
+	<p>Two articles side by side.</p>
 		<?php
 		render("element--hilighted-articles.twig", array("image" => "https://placehold.it/90x90"));
 		?>
