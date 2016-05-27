@@ -1,0 +1,41 @@
+.element--styled-title { 
+    $styled-title_height: 17px;
+    $styled-title_mobile_bkp: 480px;
+    
+    .header-with-bg {
+        height: $styled-title_height;
+        text-align: center;    
+        line-height: 0; 
+    }
+    .block {
+        padding: 0px 40px;
+        display: inline-block;
+        height: $styled-title_height;
+        font-size: 13px;
+        line-height: 1;
+    }
+    .bg-white {
+        background-color: white;
+        color: black;
+    }
+    .bg-black {
+        background-color: black;
+        color: white;
+    }
+     
+    .slashed-line-withmargins,
+    .slashed-line,
+    .dotted-line {
+        background-repeat: repeat;
+    }
+    .dotted-line {
+        background: url("../img/dotted-line.png");
+    }    
+    .slashed-line-withmargins {
+        background: url("../img/slashed-line-withmargins.png");
+        background-repeat: repeat-x; 
+    }    
+    .slashed-line {
+        background: url("../img/slashed-line.png");
+    }
+}

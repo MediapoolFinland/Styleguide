@@ -31,13 +31,20 @@ function render($file, $dataArr = array()) {
 <body>
 
 <div class="row">
-<h1>List of elements.</h1>
-<blockquote>Work in progress.</blockquote>
-<h2>Row with three columns</h2>
-<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
-<?php
-render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-?>
+	<h1>List of elements.</h1>
+	<blockquote>Work in progress.</blockquote>
+	
+	<h2>Row with three columns</h2>
+		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
+		<?php
+		render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+		?>
+	
+	<h2>Styled title</h2>
+	<p>Vertical element with blocks on top of it.</p>
+		<?php
+		render("element--styled-title.twig", array());
+		?>
 </div>
 <!-- render("three-columns-with-images.twig", array("columnTitle1" => "Title 1", "columnTitle2" => "Title 2", "columnTitle3" => "Title 3")); -->
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
