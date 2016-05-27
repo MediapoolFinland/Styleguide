@@ -23,6 +23,16 @@
             height: 100%;
             left: 0;
             top: 0;
+            
+            &:hover, &:active {
+                .column-content {
+                    opacity: 1;
+                }
+            }
+        }
+        .column-content {
+            opacity: 0;
+            padding: 0 15px;
         }
     }
 }
