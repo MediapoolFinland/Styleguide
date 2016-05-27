@@ -1,4 +1,6 @@
 .row--four-columns-with-imgs {
+    $four-columns-with-imgs-animationspeed: 0.2s;
+    
     .columns {
         margin-bottom: 10px;
     }
@@ -24,7 +26,13 @@
             left: 0;
             top: 0;
             
+            background-color: rgba(255, 255, 255, 0);
+            
+            @include transition(background-color $four-columns-with-imgs-animationspeed ease);            
+            
             &:hover, &:active {
+                background-color: rgba(255, 255, 255, $four-columns-with-imgs-animationspeed);
+                
                 .column-content {
                     opacity: 1;
                 }
@@ -33,6 +41,9 @@
         .column-content {
             opacity: 0;
             padding: 0 15px;
+            text-align: center;
+            
+            @include transition(opacity 0.5s ease);
         }
     }
 }
