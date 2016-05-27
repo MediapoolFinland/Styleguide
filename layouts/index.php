@@ -48,8 +48,13 @@ function render($file, $dataArr = array()) {
 		<?php
 		render("element--styled-title.twig", array("image_basic" => "../assets/img/slashed-line-withmargins.png", "image_sides" => "../assets/img/dotted-line.png"));
 		?>
+		
+	<h2>Hilighted articles</h2>
+	<p></p>
+		<?php
+		render("element--hilighted-articles.twig", array("image" => "https://placehold.it/90x90"));
+		?>
 </div>
-<!-- render("three-columns-with-images.twig", array("columnTitle1" => "Title 1", "columnTitle2" => "Title 2", "columnTitle3" => "Title 3")); -->
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
 <script type="text/javascript" src="../assets/js/vendor/foundation.min.js"></script>
 <script type="text/javascript" src="../assets/js/app.js"></script>
