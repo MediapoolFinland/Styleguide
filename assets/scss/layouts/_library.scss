@@ -1,3 +1,4 @@
+// Mixins
 @mixin transition($args...) {
     -webkit-transition: $args;
     -moz-transition: $args;
@@ -34,4 +35,20 @@
         -moz-box-shadow: $top $left $blur $color;
         box-shadow: $top $left $blur $color;
     }
+}
+
+// Vertical alignment 
+.va-outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.va-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.va-inner {
+    margin-left: auto;
+    margin-right: auto;
 }

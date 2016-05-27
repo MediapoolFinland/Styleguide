@@ -64,7 +64,7 @@ function render($file, $dataArr = array()) {
 		?>
 		
 	<h2>Row with four images as columns</h2>
-	<p>Simple 4 column block with images that has a hover active body content.</p>
+	<p>Simple 4 column block with images that have a hover active body content.</p>
 		<?php
 		render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 		?>
