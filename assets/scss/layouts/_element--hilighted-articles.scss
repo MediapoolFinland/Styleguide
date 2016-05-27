@@ -6,7 +6,6 @@
     .article {
         width: $hilighted-article-width;
     }
-    
     .article-list {
         margin-left: 0;
         
@@ -23,6 +22,10 @@
                 &:nth-child(even) {
                     float: right;
                     text-align: right;
+                
+                    .article-smallimg:not(.mobile) {
+                        float: right;
+                    }
                 }
             }
         }
@@ -31,15 +34,15 @@
     .article-info {
         display: inline-block;
         vertical-align: top;
-        
-        &.mobile {
-            display: block;
-            width: 100%;
-        }
     }
     .article-smallimg {
         width: $hilighted-article-image_size;
         height: $hilighted-article-image_size;
+        
+        @media screen and (max-width: $hilighted-article-mobile) {
+            display: block;
+            width: 100%;
+        }
     }
     .article-info {
         width: 80%;
@@ -54,6 +57,7 @@
             height: 58px;
             font-size: 19px; 
             line-height: 1.0;
+            overflow: auto;
         }
         
         @media screen and (max-width: $hilighted-article-mobile) {
@@ -65,6 +69,7 @@
         li {
             list-style: none;
             padding: 0;
+            margin-bottom: 30px;
         }
         li a {
             display: block;
