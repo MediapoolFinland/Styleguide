@@ -17,7 +17,9 @@ function render($file, $dataArr = array()) {
 	echo $twig->render($file, $dataArr);
 	echo "<button type='button' class='button tiny show-code'>Show code</button>";
 	echo "<pre class='main-code-block' style='display:none'>" . htmlspecialchars(file_get_contents("../twig/" . $file)) . PHP_EOL . PHP_EOL . "/*** SCSS ***/" . PHP_EOL . file_get_contents("../assets/scss/layouts/_" . str_replace(".twig", ".scss", $file)) . "</pre>";
+	echo "</div>";
 	echo "<hr>";
+	echo "<div class='row'>";
 }
 
 ?><!DOCTYPE html>
@@ -29,17 +31,18 @@ function render($file, $dataArr = array()) {
 	<link rel="stylesheet" href="../assets/css/app.css">
 </head>
 <body>
-
 <div class="row">
 	<h1>List of elements.</h1>
 	<blockquote>Work in progress.</blockquote>
-	
+</div>
+<hr>
+<div class="row">
 	<h2>Row with three columns</h2>
 		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
 		<?php
 		render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 		?>
-	
+		
 	<h2>Styled title</h2>
 	<p>Horizontal element with blocks on top of it. Vertical alignment supports only a single line of text.</p>
 		<?php
