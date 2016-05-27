@@ -44,7 +44,7 @@ function render($file, $dataArr = array()) {
 		?>
 		
 	<h2>Styled title</h2>
-	<p>Horizontal element with blocks on top of it. Vertical alignment supports only a single line of text.</p>
+	<p>Horizontal element with blocks on top of it. Vertical alignment for titles supports only a single line of text.</p>
 		<?php
 		render("element--styled-title.twig", array("image_basic" => "../assets/img/slashed-line-withmargins.png", "image_sides" => "../assets/img/dotted-line.png"));
 		?>
