@@ -1,4 +1,12 @@
 .element--hilighted-articles {
+    $hilighted-article-width: 50%;
+    $hilighted-article-image_size: 90px;
+    $hilighted-article-mobile: 640px;
+    
+    .article {
+        width: $hilighted-article-width;
+    }
+    
     .article-list {
         margin-left: 0;
         
@@ -9,6 +17,8 @@
                 &:nth-child(odd) {
                     float: left;
                     text-align: left;
+                    
+                    border-right: 1px solid gray;
                 }
                 &:nth-child(even) {
                     float: right;
@@ -28,11 +38,12 @@
         }
     }
     .article-smallimg {
-        width: 90px;
-        height: 90px;
+        width: $hilighted-article-image_size;
+        height: $hilighted-article-image_size;
     }
     .article-info {
-        width: 175px;
+        width: 80%;
+        width: calc(100% - #{$hilighted-article-image_size});
         padding: 0 0.5em;
         
         .article-date {
@@ -43,6 +54,10 @@
             height: 58px;
             font-size: 19px; 
             line-height: 1.0;
+        }
+        
+        @media screen and (max-width: $hilighted-article-mobile) {
+            width: 100%;
         }
     }
     
