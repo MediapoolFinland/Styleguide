@@ -38,6 +38,9 @@
 }
 
 // Vertical alignment 
+.va-container {
+    position: relative;
+}
 .va-outer {
     display: table;
     position: absolute;
