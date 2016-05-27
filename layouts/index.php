@@ -52,7 +52,12 @@ function render($file, $dataArr = array()) {
 	<h2>Hilighted articles</h2>
 	<p>Two articles side by side.</p>
 		<?php
-		render("element--hilighted-articles.twig", array("image" => "https://placehold.it/90x90"));
+		render("element--hilighted-articles.twig", array("articles" => array(
+				array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks"), 
+				array("image" => "https://placehold.it/90x90", "date" => "April 13 2014 - in Personal", "title" => "Stripes for spring &amp; more beauty picks"), 
+				array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "April looks"), 
+				array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "Stripes for spring &amp; more beauty picks")
+			), "next" => "Next", "previous" => "Previous"));
 		?>
 </div>
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>

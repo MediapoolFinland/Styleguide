@@ -2,37 +2,29 @@
 <h3>Double</h3>
 <div class="element--hilighted-articles">
 	<ul class="article-list double clearfix"> 
-		<li class="article">
-			<div class="article-smallimg">
-				<a href="#"><img src="{{image}}"></a>
-			</div><!--
-		 --><div class="article-info">
-				<div class="article-date">
-					April 13 2016 - in Personal
-				</div>
-				<div class="article-title">
-					March looks
-				</div>
-				<div class="article-button previous">
-					<a href="#" class="">Previous</a>
-				</div>
-			</div>                                                                
-		</li><!--
-	 --><li class="article">
-			<div class="article-smallimg">
-				<a href="#"><img src="{{image}}"></a>
-			</div><!--
-		 --><div class="article-info">
-				<div class="article-date">
-					April 13 2016 - in Personal
-				</div>
-				<div class="article-title"> 
-					Stripes for spring &amp; more beauty picks
-				</div>
-				<div class="article-button next">
-					<a href="#" class="">Next</a>
-				</div>
-			</div>
-		</li>
+		{% for article in articles %}
+			<li class="article">
+				<div class="article-smallimg">
+					<a href="#"><img src="{{ article.image }}"></a>
+				</div><!--
+			--><div class="article-info">
+					<div class="article-date">
+						{{ article.date }}
+					</div>
+					<div class="article-title">
+						{{ article.title }}
+					</div>
+					{% if loop.index0 is even %}
+					<div class="article-button previous">
+						<a href="#" class="">{{ previous }}</a>
+					</div>
+					{% else %}
+					<div class="article-button next">
+						<a href="#" class="">{{ next }}</a>
+					</div>
+					{% endif %}
+				</div>                                                                
+			</li>
+		{% endfor %}
 	</ul>
 </div>
