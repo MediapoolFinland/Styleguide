@@ -62,6 +62,12 @@ function render($file, $dataArr = array()) {
 				array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks")
 			), "next" => "Next", "previous" => "Previous"));
 		?>
+		
+	<h2>Row with four images as columns</h2>
+	<p>Simple 4 column block with images that has a hover active body content.</p>
+		<?php
+		render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+		?>
 </div>
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
 <script type="text/javascript" src="../assets/js/vendor/foundation.min.js"></script>
