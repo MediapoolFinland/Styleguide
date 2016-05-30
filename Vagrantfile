@@ -13,7 +13,11 @@ Vagrant.configure(2) do |config|
  config.vm.network "forwarded_port", guest: 80, host: 8080
  config.vm.network "private_network", ip: "192.168.33.10"
 
- # config.vm.synced_folder "./tunnit", "/var/www/tunnit"
+ # config.vm.synced_folder "./wordpress", "/var/www/wordpress", owner: "www-data", group: "www-data"
+
+ # Faster settings (cannot set folder owner&group with nfs on)
+ # config.vm.synced_folder "./wordpress", "/var/www/wordpress", nfs: true
+ # config.vm.synced_folder "./wp-theme", "/var/www/wordpress/wp-content/themes/wp-theme", nfs: true
 
  config.vm.provision "shell" do |s|
    s.path = "#{current_dir}/config/server.sh"
