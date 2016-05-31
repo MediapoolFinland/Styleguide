@@ -14,6 +14,10 @@
             background-position: 50% 50%;
         }
     }
+    //If element has more than 3 child columns, clean up the linebreaks
+    .columns:nth-child(4n+4) {
+        clear: left;
+    }
 }
 
 .row--three-columns--images-16-9 {
