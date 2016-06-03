@@ -1,0 +1,32 @@
+.row--two-columns {
+    .image-wrapper {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        position: relative;
+        .column-image {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
+    .columns:nth-child(4n+4) {
+        clear: left;
+    }
+} 
+
+.row--two-columns--images-16-9 {
+    .image-wrapper {
+        padding-bottom: 56.25%;
+    }
+}
+
+.row--two-columns--images-4-3 {
+    .image-wrapper {
+        padding-bottom: 75%;
+    }
+}

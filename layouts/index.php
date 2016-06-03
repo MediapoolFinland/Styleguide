@@ -40,35 +40,41 @@ function render($file, $dataArr = array()) {
 	<h2>Row with three columns</h2>
 		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
 		<?php
-		render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-		?>
-		
+render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
+	<h2>Row with two columns</h2>
+		<p>Simple 2 column block with a header image and body content. 2 variations for different image aspect ratios.</p>
+		<?php
+render("row--two-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
 	<h2>Styled title</h2>
 	<p>Horizontal element with blocks on top of it. Vertical alignment for titles supports only a single line of text.</p>
 		<?php
-		render("element--styled-title.twig", array(
-			"image_basic" => "../assets/img/slashed-line-withmargins.png", 
-			"image_sides" => "../assets/img/dotted-line.png",
-			"title" => "This is a title", "leftblock" => "Read more", "rightblock" => "Some icons"));
-		?>
-		
+render("element--styled-title.twig", array(
+	"image_basic" => "../assets/img/slashed-line-withmargins.png",
+	"image_sides" => "../assets/img/dotted-line.png",
+	"title" => "This is a title", "leftblock" => "Read more", "rightblock" => "Some icons"));
+?>
+
 	<h2>Hilighted articles</h2>
 	<p>Two articles side by side.</p>
 		<?php
-		render("element--hilighted-articles.twig", array("articles" => array(
-				array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks"), 
-				array("image" => "https://placehold.it/90x90", "date" => "April 13 2014 - in Personal", "title" => "Stripes for spring &amp; more beauty picks"), 
-				array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "Stripes for summer"), 
-				array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks")
-			), "next" => "Next", "previous" => "Previous"));
-		?>
-		
+render("element--hilighted-articles.twig", array("articles" => array(
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks"),
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2014 - in Personal", "title" => "Stripes for spring &amp; more beauty picks"),
+	array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "Stripes for summer"),
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks"),
+), "next" => "Next", "previous" => "Previous"));
+?>
+
 	<h2>Row with four images as columns</h2>
 	<p>Simple 4 column block with images that have a hover active vertically aligned body content.</p>
 	<p><i>Note: the vertical align css classes are in the <b>_library.scss</b> -file.</i></p>
 		<?php
-		render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-		?>
+render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
 </div>
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
 <script type="text/javascript" src="../assets/js/vendor/foundation.min.js"></script>
