@@ -43,6 +43,13 @@ function render($file, $dataArr = array()) {
 render("row--five-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 ?>
 
+	<h2>Row with four images as columns</h2>
+		<p>Simple 4 column block with images that have a hover active vertically aligned body content.</p>
+		<p><i>Note: the vertical align css classes are in the <b>_library.scss</b> -file.</i></p>
+		<?php
+render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
 	<h2>Row with three columns</h2>
 		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
 		<?php
@@ -73,13 +80,6 @@ render("element--hilighted-articles.twig", array("articles" => array(
 	array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "Stripes for summer"),
 	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks"),
 ), "next" => "Next", "previous" => "Previous"));
-?>
-
-	<h2>Row with four images as columns</h2>
-	<p>Simple 4 column block with images that have a hover active vertically aligned body content.</p>
-	<p><i>Note: the vertical align css classes are in the <b>_library.scss</b> -file.</i></p>
-		<?php
-render("row--four-columns-with-imgs.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 ?>
 </div>
 <script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
