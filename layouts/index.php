@@ -37,6 +37,12 @@ function render($file, $dataArr = array()) {
 </div>
 <hr>
 <div class="row">
+	<h2>Row with five columns</h2>
+		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
+		<?php
+render("row--five-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
 	<h2>Row with three columns</h2>
 		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
 		<?php
