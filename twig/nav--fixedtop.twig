@@ -1,0 +1,86 @@
+{# NAV FIXED TOP #}
+<h3>Full width</h3>
+<nav class="nav--fixedtop">
+    <div class="row main-container">
+        <div class="small-2 columns"><a href="#">logo</a></div><!--
+     --><div class="small-8 columns">
+            <ul class="row">
+                <li class="small-2 columns">
+                    <a href="#">Categories</a> <a href="#" class="toggle-submenu">v</a>
+                    <ul class="submenu">
+                        <div class="row submenu-container">
+                            <div class="small-2 columns">&nbsp;</div>
+                            <div class="small-8 columns">
+                                <div class="row submenu-items-container">
+                                    <li class="small-2 columns"><a href="#">Outfits</a></li>
+                                    <li class="small-2 columns"><a href="#">Beauty</a></li>
+                                    <li class="small-2 columns"><a href="#">Lifestyle</a></li>
+                                    <li class="small-2 columns"><a href="#">Travel</a></li>
+                                    <li class="small-2 columns end"><a href="#">Personal</a></li>
+                                </div>
+                            </div>
+                            <div class="small-2 columns">&nbsp;</div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="small-2 columns"><a href="#">Archive</a></li>
+                <li class="small-2 columns"><a href="#">About</a></li>
+                <li class="small-2 columns"><a href="#">Contact</a></li>
+                <li class="small-2 columns">
+                    <a href="#">Shop</a> <a href="#" class="toggle-submenu">v</a> 
+                    <ul class="submenu">
+                        <div class="row submenu-container">
+                            <div class="small-2 columns">&nbsp;</div>
+                            <div class="small-8 columns">
+                                <div class="row submenu-items-container">
+                                    <li class="small-2 columns"><a href="#">Test</a></li>
+                                    <li class="small-2 columns"><a href="#">Test</a></li>
+                                    <li class="small-2 columns end"><a href="#">Test</a></li>
+                                </div>
+                            </div>
+                            <div class="small-2 columns">&nbsp;</div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="small-2 columns">
+                    <ul class="nav-menu">
+                        <li><a href="#">FI</a></li>
+                        <li><a href="#">ENG</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--
+     --><div class="small-2 columns">search</div>
+    </div>
+</nav>
+
+<script type="text/javascript">
+    var $prev_active_submenu = null;
+    var $nav = $("nav.nav--fixedtop");
+
+    $(".toggle-submenu").on("click", function(event) {
+        "use strict";
+
+        event.preventDefault();
+
+        var $toggle_link = $(this);
+        var $submenu = $toggle_link.next(".submenu:first");
+
+        var is_already_open = $submenu.hasClass("active");
+        var is_previous_open = $prev_active_submenu !== null;
+
+        if ($prev_active_submenu !== null) 
+            $prev_active_submenu.removeClass("active");
+        $prev_active_submenu = $submenu;
+
+        if (is_already_open && is_previous_open) 
+            $prev_active_submenu = null;
+        else {
+            $nav.addClass("submenu-open");
+            $submenu.addClass("active");        
+        }
+        
+        if ($prev_active_submenu === null)
+            $nav.removeClass("submenu-open");
+    });
+</script>

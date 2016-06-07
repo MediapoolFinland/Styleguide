@@ -29,6 +29,8 @@ function render($file, $dataArr = array()) {
 	<title>List of elements</title>
 	<link rel="stylesheet" href="../assets/foundation/css/foundation.min.css">
 	<link rel="stylesheet" href="../assets/css/app.css">
+	<script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="../assets/js/vendor/foundation.min.js"></script>
 </head>
 <body>
 <div class="row">
@@ -37,6 +39,11 @@ function render($file, $dataArr = array()) {
 </div>
 <hr>
 <div class="row">
+	<h2>Navigation - fixed top</h2>
+	<p></p>
+		<?php
+render("nav--fixedtop.twig", array());
+?>
 	<h2>Row with five columns</h2>
 		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
 		<?php
@@ -81,9 +88,8 @@ render("element--hilighted-articles.twig", array("articles" => array(
 	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks"),
 ), "next" => "Next", "previous" => "Previous"));
 ?>
+?>
 </div>
-<script type="text/javascript" src="../assets/js/vendor/jquery.js"></script>
-<script type="text/javascript" src="../assets/js/vendor/foundation.min.js"></script>
 <script type="text/javascript" src="../assets/js/app.js"></script>
 </body>
 </html>
