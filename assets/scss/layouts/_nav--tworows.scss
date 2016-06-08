@@ -1,5 +1,6 @@
 .nav--tworows {
     $nav_height: 40px;
+    $element_height: 30px;
 
     height: $nav_height;
     position: relative;
@@ -11,12 +12,18 @@
     }
     
     li {
-        height: 30px;
+        height: $element_height;
         display: inline-block;
         list-style-type: none;
+        
+        &.current-menu-item a,
+        &.current_page_item a {
+            color: #9B9B9B !important;
+        }
     }
     a { 
         display: inline-block;
+        color: black;
         
         &:only-child {
             height: 100%;
@@ -28,11 +35,8 @@
         margin: 0;
     }
     .logoimg {
-        a {
-            padding: 0 !important;
-        }
         img {
-            height: 30px;
+            height: $element_height;
             width: 135px;
         }
     }
@@ -63,4 +67,37 @@
     .lang-menu {
         margin-left: 0;
     }
-} 
+    .search-form {
+        position: relative;
+
+        label {
+            height: $element_height;
+            border-bottom: 1px solid #EFEFEF;
+        }
+        input[type=search] { 
+            width: 90%;
+            height: $element_height;
+
+            border: 0;
+            border-radius: 0;
+            background: 0;
+            box-shadow: none;
+
+            font-size: 13px;
+        }
+        button {
+            background: rgba(0,0,0,0);
+            border: 0;
+            padding-right: 0;
+        }
+        .search-submit {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+
+            img {
+                width: 11px
+            }
+        }
+    }
+}
