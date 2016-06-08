@@ -1,10 +1,10 @@
-.element--img-row--hover {
-    .columns {
-        margin-bottom: 10px;
-    }
+.element--img--hover {
+    width: 227px;
+    height: 339px;
+
     .image-wrapper {
         width: 100%;
-        height: 0;
+        height: 100%;
         padding-bottom: 100%;
         position: relative;
         
@@ -42,7 +42,7 @@
     }
 }
 
-.element--img-row--hover--images-9-16 {
+.element--img--hover--images-9-16 {
     .image-wrapper {  
         padding-bottom: 149.25%;
     }
