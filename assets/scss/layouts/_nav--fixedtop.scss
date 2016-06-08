@@ -13,7 +13,7 @@
         display: inline-block;
         list-style-type: none;
     }
-    ul.submenu {
+    .submenu {
         width: 100%;
         height: $nav_height;
 
@@ -30,6 +30,9 @@
         &.active {
             display: block;
         }
+    }
+    .main-container {
+        margin: 0;
     }
     .submenu-container {
         max-width: 62.5rem;

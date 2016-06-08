@@ -88,7 +88,6 @@ render("element--hilighted-articles.twig", array("articles" => array(
 	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks"),
 ), "next" => "Next", "previous" => "Previous"));
 ?>
-?>
 </div>
 <script type="text/javascript" src="../assets/js/app.js"></script>
 </body>
