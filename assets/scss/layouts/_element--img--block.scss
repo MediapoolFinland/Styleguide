@@ -1,10 +1,10 @@
 .element--img--block {
-    width: 227px;
-    height: 339px;
+    width: 200px;
+    height: 300px;
 
     .image-wrapper {
         width: 100%;
-        height: 100%;
+        height: 0;
         padding-bottom: 100%;
         position: relative;
         
@@ -58,8 +58,42 @@
     }
 }
 
-.element--img--block--images-9-16 {
+.element--img--block--image-2-3 {
     .image-wrapper {  
         padding-bottom: 149.25%;
+    }
+}
+.element--img--block--image-3-2 {
+    width: 630px;
+    height: 420px;
+
+    .image-wrapper {  
+        padding-bottom: 66.8%;
+
+        .column-body {
+            width: 200px;
+            height: 115px;
+            left: -5px;
+            top: 40px;
+            
+            text-align: center;
+            font-style: italic;
+        } 
+    } 
+}
+.element--img--block--image-2-3--tall {
+    width: 640px;
+    height: 960px;
+
+    .image-wrapper {
+        padding-bottom: 150.1%;
+
+        .column-body {
+            top: 50px;
+            width: 200px;
+            height: 140px;
+
+            text-align: right;
+        } 
     }
 }

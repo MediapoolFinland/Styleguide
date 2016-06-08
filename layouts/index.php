@@ -111,13 +111,13 @@ render("element--hilighted-articles.twig", array("articles" => array(
 		<p>Image that has a hover active vertically aligned body content.</p>
 		<p><i>Note: the vertical align css classes are in the <b>_library.scss</b> -file.</i></p>
 		<?php
-render("element--img--hover.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+render("element--img--hover.twig", array("image" => "https://placehold.it/200x300", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 ?>
 
 	<h2>Image with content blocks</h2>
 		<p></p>
 		<?php
-render("element--img--block.twig", array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"));
+render("element--img--block.twig", array("image" => "https://placehold.it/200x300", "title" => "Trenssi", "desc" => "Chanel"));
 ?>
 </div>
 <script type="text/javascript" src="../assets/js/app.js"></script>
