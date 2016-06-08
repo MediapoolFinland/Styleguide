@@ -10,7 +10,7 @@
                 {% for item in menu.get_items %}
                     {% if item.get_children %}
                         <li class="small-2 columns nav-main-item {{item.classes | join(' ')}} {% if loop.last %}end{% endif %}">
-                            <span class="has-submenu"><a href="{{item.get_link}}">{{item.title}}</a> <a href="#" class="toggle-submenu">v</a></span>
+                            <a href="{{item.get_link}}" class="toggle-submenu">{{item.title}} v</a>
                             <div class="submenu">
                                 <div class="row submenu-container">
                                     <div class="small-2 columns">&nbsp;</div>
@@ -64,7 +64,7 @@
         var $nav = $("nav.nav--tworows");
         var $previouslyOpenSubmenu = null;
 
-        $(".toggle-submenu").on("click", function(event) {
+        $(".nav--tworows .toggle-submenu").on("click", function(event) {
             event.preventDefault();
 
             var $submenu = findSubmenu($(this));
@@ -77,7 +77,7 @@
         });
 
         function findSubmenu($toggleBtn) {
-            return $toggleBtn.parent().next(".submenu:first");
+            return $toggleBtn.next(".submenu:first");
         }
         function isSubmenuOpen($submenu) {
             return $submenu !== null && $submenu.hasClass("active");

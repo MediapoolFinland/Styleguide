@@ -39,27 +39,36 @@ function render($file, $dataArr = array()) {
 </div>
 <hr>
 <div class="row">
+<?php 
+	// Test code for menu
+	$menu = array("menu" => array(
+		"get_items" => array(
+			array("title" => "Categories", "get_link" => "#", "classes" => array("current-menu-item"), "get_children" => array(
+				array("title" => "Outfits", "get_link" => "#"),
+				array("title" => "Beauty", "get_link" => "#", ),
+				array("title" => "Lifestyle", "get_link" => "#", "classes" => array("current_page_item")),
+				array("title" => "Travel", "get_link" => "#"),
+				array("title" => "Personal", "get_link" => "#") )),
+			array("title" => "Archive", "get_link" => "#"),
+			array("title" => "About", "get_link" => "#"),
+			array("title" => "Contact", "get_link" => "#", "get_children" => array(
+				array("title" => "Test", "get_link" => "#"),
+				array("title" => "Test", "get_link" => "#"),
+				array("title" => "Test", "get_link" => "#") )),
+			array("title" => "Shop", "get_link" => "#")),
+		"get_langs" => array(
+			array("title" => "FIN", "get_link" => "#"),
+			array("title" => "ENG", "get_link" => "#", "classes" => array("current_page_item")) ))); ?>
+
+	<h2>Navigation - mobile</h2>
+	<p>Mobile navigation with support for submenus. Also contains a search bar, language menu and a row for social media icons.</p>
+		<?php render("nav--mobile.twig", $menu); ?>
+
 	<h2>Navigation - two rows</h2>
 	<p>Vertical nav with support for 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
 		This nav is not responsive. See <a href="https://github.com/timber/timber/wiki/TimberMenu">TimberMenu in GitHub</a>.</p>
-		<?php
-render("nav--tworows.twig", array("menu" => array(
-	"get_items" => array(
-		array("title" => "Categories", "get_link" => "#", "classes" => array("current-menu-item"), "get_children" => array(
-			array("title" => "Outfits", "get_link" => "#"),
-			array("title" => "Beauty", "get_link" => "#", ),
-			array("title" => "Lifestyle", "get_link" => "#", "classes" => array("current_page_item")),
-			array("title" => "Travel", "get_link" => "#"),
-			array("title" => "Personal", "get_link" => "#") )),
-		array("title" => "Archive", "get_link" => "#"),
-		array("title" => "About", "get_link" => "#"),
-		array("title" => "Contact", "get_link" => "#"),
-		array("title" => "Shop", "get_link" => "#")),
-	"get_langs" => array(
-		array("title" => "FIN", "get_link" => "#"),
-		array("title" => "ENG", "get_link" => "#", "classes" => array("current_page_item")) )
-)));
-?>
+		<?php render("nav--tworows.twig", $menu); ?>
+
 	<h2>Row with five columns</h2>
 		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
 		<?php

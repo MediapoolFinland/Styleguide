@@ -1,0 +1,109 @@
+{# NAV MOBILE #}
+<nav class="nav--mobile">
+    <div class="row mobilenav--header">
+        <div class="small-10 columns logoimg">
+            <a href="#"><img src="https://placehold.it/135x30"></a>
+        </div>
+        <div class="small-2 columns burger">
+            <a href="#" class="mobilenav--burger"></a>
+        </div>
+    </div>
+    <div class="mobilenav--content">
+        <div class="submenu-container">
+        <div class="mobilenav--row menu">
+            <ul class="menu-page">
+                {% for item in menu.get_items %}
+                    {% if item.get_children %}
+                        <li class="nav-main-item {{item.classes | join(' ')}}">
+                            <a href="{{item.get_link}}" class="toggle-submenu">{{item.title}} ></a>
+                            <ul class="row submenu submenu-items-container">
+                                <li><a href="#" class="back-button">< Back</a></li>
+                                {% for child in item.get_children %}
+                                    <li class="nav-child-item {{child.classes | join(' ')}}">
+                                        <a href="{{child.get_link}}">{{child.title}}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="{{item.classes | join(' ')}}"><a href="{{item.get_link}}">{{item.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="mobilenav--row search">
+            <!-- Include searchform.php here -->
+            <form role="search" method="get" class="search-form" action="">
+                <label>
+                    <input type="search" class="search-field" placeholder="Etsi" value="" name="s" />
+                </label>
+                <button type="submit" class="search-submit"><img src="/assets/img/suurennuslasi.png"></button>
+            </form>
+        </div>
+        <div class="mobilenav--row lang">
+            <ul class="menu-lang">
+                {% for lang in menu.get_langs %}
+                    {% if not loop.first %}
+                        <li class="lang-divider {{lang.classes | join(' ')}}">/</li>
+                    {% endif %}
+                    <li class="lang-item {{lang.classes | join(' ')}}"><a href="{{lang.get_link}}">{{lang.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        </div><!-- /.submenu-container -->
+        <div class="mobilenav--row some">
+            <ul>
+                <li><a href="#"><img src="http://placehold.it/32x32"></a></li>
+                <li><a href="#"><img src="http://placehold.it/32x32"></a></li>
+                <li><a href="#"><img src="http://placehold.it/32x32"></a></li>
+                <li><a href="#"><img src="http://placehold.it/32x32"></a></li>
+                <li><a href="#"><img src="http://placehold.it/32x32"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript">
+    var navResponsive;
+
+    (navResponsive = function() {
+        "use strict";
+
+        var $nav = $("nav.nav--mobile");
+        var $previouslyOpenSubmenu = null;
+
+        $(".nav--mobile .mobilenav--burger").on("click", function(event) {
+            event.preventDefault();
+
+            $(".nav--mobile .mobilenav--content").toggleClass("active");
+            $(".nav--mobile").toggleClass("mobile-menu-open");
+        });
+
+        $(".nav--mobile .toggle-submenu").on("click", function(event) {
+            event.preventDefault();
+            openSubmenu(findSubmenu($(this)));
+        });
+        $(".nav--mobile .back-button").on("click", function(event) {
+            event.preventDefault();
+            closeSubmenu($previouslyOpenSubmenu);
+        });
+
+        function findSubmenu($toggleBtn) {
+            return $toggleBtn.next(".submenu:first");
+        }
+        function openSubmenu($submenu) {
+            $nav.addClass("submenu-open");
+            $submenu.addClass("active");    
+
+            $previouslyOpenSubmenu = $submenu;
+        }
+        function closeSubmenu($submenu) {
+            $nav.removeClass("submenu-open");
+
+            if ($submenu !== null)
+                $submenu.removeClass("active");
+
+            $previouslyOpenSubmenu = null;
+        }
+    })();
+</script>
