@@ -2,11 +2,13 @@
 <h3>Full width</h3>
 <nav class="nav--fixedtop">
     <div class="row main-container">
-        <div class="small-2 columns"><a href="#">logo</a></div><!--
-     --><div class="small-8 columns">
-            <ul class="row">
+        <div class="small-2 columns logoimg">
+            <a href="#"><img src="https://placehold.it/135x30"></a>
+        </div>
+        <div class="small-8 columns">
+            <ul class="row page-nav">
                 <li class="small-2 columns">
-                    <a href="#">Categories</a> <a href="#" class="toggle-submenu">v</a>
+                    <span class="has-submenu"><a href="#">Categories</a> <a href="#" class="toggle-submenu">v</a></span>
                     <div class="submenu">
                         <div class="row submenu-container">
                             <div class="small-2 columns">&nbsp;</div>
@@ -27,7 +29,7 @@
                 <li class="small-2 columns"><a href="#">About</a></li>
                 <li class="small-2 columns"><a href="#">Contact</a></li>
                 <li class="small-2 columns">
-                    <a href="#">Shop</a> <a href="#" class="toggle-submenu">v</a> 
+                    <span class="has-submenu"><a href="#">Shop</a> <a href="#" class="toggle-submenu">v</a></span>
                     <div class="submenu">
                         <div class="row submenu-container">
                             <div class="small-2 columns">&nbsp;</div>
@@ -43,14 +45,14 @@
                     </div>
                 </li>
                 <li class="small-2 columns">
-                    <ul class="nav-menu">
+                    <ul class="lang-menu">
                         <li><a href="#">FI</a></li>
                         <li><a href="#">ENG</a></li>
                     </ul>
                 </li>
             </ul>
-        </div><!--
-     --><div class="small-2 columns">search</div>
+        </div>
+        <div class="small-2 columns">search</div>
     </div>
 </nav>
 
@@ -64,7 +66,7 @@
         event.preventDefault();
 
         var $toggle_link = $(this);
-        var $submenu = $toggle_link.next(".submenu:first");
+        var $submenu = $toggle_link.parent().next(".submenu:first");
 
         var is_already_open = $submenu.hasClass("active");
         var is_previous_open = $prev_active_submenu !== null;
