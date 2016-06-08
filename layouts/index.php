@@ -40,7 +40,7 @@ function render($file, $dataArr = array()) {
 <hr>
 <div class="row">
 	<h2>Navigation - two rows</h2>
-	<p></p>
+	<p>Vertical nav with support to 5 nav elements, language list and submenus. Submenus open as second row below the main row.<br>This nav is not responsive.</p>
 		<?php
 render("nav--tworows.twig", array());
 ?>
