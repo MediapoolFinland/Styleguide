@@ -56,8 +56,13 @@
         margin-left: auto;
         margin-right: auto;
 
+        color: #9B9B9B;
+
         &.active {
             display: block;
+        }
+        .current_page_item a {
+            color: black !important;
         }
     }
     .submenu-container {
@@ -66,6 +71,10 @@
     }
     .lang-menu {
         margin-left: 0;
+
+        .lang-divider.current_page_item {
+            color: #9B9B9B;
+        }
     }
     .search-form {
         position: relative;

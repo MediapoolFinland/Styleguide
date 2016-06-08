@@ -7,47 +7,38 @@
         </div>
         <div class="small-8 columns">
             <ul class="row page-nav">
-                <li class="small-2 columns">
-                    <span class="has-submenu"><a href="#">Categories</a> <a href="#" class="toggle-submenu">v</a></span>
-                    <div class="submenu">
-                        <div class="row submenu-container">
-                            <div class="small-2 columns">&nbsp;</div>
-                            <div class="small-8 columns">
-                                <ul class="row submenu-items-container">
-                                    <li class="small-2 columns"><a href="#">Outfits</a></li>
-                                    <li class="small-2 columns"><a href="#">Beauty</a></li>
-                                    <li class="small-2 columns"><a href="#">Lifestyle</a></li>
-                                    <li class="small-2 columns"><a href="#">Travel</a></li>
-                                    <li class="small-2 columns end"><a href="#">Personal</a></li>
-                                </ul>
+                {% for item in menu.get_items %}
+                    {% if item.get_children %}
+                        <li class="small-2 columns nav-main-item {{item.classes | join(' ')}} {% if loop.last %}end{% endif %}">
+                            <span class="has-submenu"><a href="{{item.get_link}}">{{item.title}}</a> <a href="#" class="toggle-submenu">v</a></span>
+                            <div class="submenu">
+                                <div class="row submenu-container">
+                                    <div class="small-2 columns">&nbsp;</div>
+                                    <div class="small-8 columns">
+                                        <ul class="row submenu-items-container">
+                                            {% for child in item.get_children %}
+                                                <li class="small-2 columns nav-child-item {{child.classes | join(' ')}} {% if loop.last %}end{% endif %}">
+                                                    <a href="{{child.get_link}}">/ {{child.title}}</a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="small-2 columns">&nbsp;</div>
+                                </div>
                             </div>
-                            <div class="small-2 columns">&nbsp;</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="small-2 columns"><a href="#">Archive</a></li>
-                <li class="small-2 columns"><a href="#">About</a></li>
-                <li class="small-2 columns"><a href="#">Contact</a></li>
-                <li class="small-2 columns">
-                    <span class="has-submenu"><a href="#">Shop</a> <a href="#" class="toggle-submenu">v</a></span>
-                    <div class="submenu">
-                        <div class="row submenu-container">
-                            <div class="small-2 columns">&nbsp;</div>
-                            <div class="small-8 columns">
-                                <ul class="row submenu-items-container">
-                                    <li class="small-2 columns"><a href="#">Test</a></li>
-                                    <li class="small-2 columns"><a href="#">Test</a></li>
-                                    <li class="small-2 columns end"><a href="#">Test</a></li>
-                                </ul>
-                            </div>
-                            <div class="small-2 columns">&nbsp;</div>
-                        </div>
-                    </div>
-                </li>
+                        </li>
+                    {% else %}
+                        <li class="small-2 columns {{item.classes | join(' ')}}"><a href="{{item.get_link}}">{{item.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
                 <li class="small-2 columns">
                     <ul class="lang-menu">
-                        <li><a href="#">FI</a></li>
-                        <li><a href="#">ENG</a></li>
+                        {% for lang in menu.get_langs %}
+                            {% if not loop.first %}
+                                <li class="lang-divider {{lang.classes | join(' ')}}">/</li>
+                            {% endif %}
+                            <li class="lang-item {{lang.classes | join(' ')}}"><a href="{{lang.get_link}}">{{lang.title}}</a></li>
+                        {% endfor %}
                     </ul>
                 </li>
             </ul>
