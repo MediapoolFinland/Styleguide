@@ -63,17 +63,17 @@
         "use strict";
 
         var $nav = $("nav.nav--fixedtop");
-        var $prev_active_submenu = null;
+        var $previouslyOpenSubmenu = null;
 
         $(".toggle-submenu").on("click", function(event) {
             event.preventDefault();
 
             var $submenu = findSubmenu($(this));
-            var is_being_closed = isSubmenuOpen($submenu) && isSubmenuOpen($prev_active_submenu);
-            
-            closeSubmenu($prev_active_submenu);
+            var isBeingClosed = isSubmenuOpen($submenu) && isSubmenuOpen($previouslyOpenSubmenu);
 
-            if (!is_being_closed) 
+            closeSubmenu($previouslyOpenSubmenu);
+
+            if (!isBeingClosed)
                 openSubmenu($submenu);
         });
 
@@ -87,7 +87,7 @@
             $nav.addClass("submenu-open");
             $submenu.addClass("active");    
 
-            $prev_active_submenu = $submenu;
+            $previouslyOpenSubmenu = $submenu;
         }
         function closeSubmenu($submenu) {
             $nav.removeClass("submenu-open");
@@ -95,7 +95,7 @@
             if ($submenu !== null)
                 $submenu.removeClass("active");
 
-            $prev_active_submenu = null;
+            $previouslyOpenSubmenu = null;
         }
     })();
 </script>
