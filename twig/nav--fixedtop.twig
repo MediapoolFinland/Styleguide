@@ -57,32 +57,45 @@
 </nav>
 
 <script type="text/javascript">
-    var $prev_active_submenu = null;
-    var $nav = $("nav.nav--fixedtop");
+    var nav_fixedtop;
 
-    $(".toggle-submenu").on("click", function(event) {
+    (nav_fixedtop = function() {
         "use strict";
 
-        event.preventDefault();
+        var $nav = $("nav.nav--fixedtop");
+        var $prev_active_submenu = null;
 
-        var $toggle_link = $(this);
-        var $submenu = $toggle_link.parent().next(".submenu:first");
+        $(".toggle-submenu").on("click", function(event) {
+            event.preventDefault();
 
-        var is_already_open = $submenu.hasClass("active");
-        var is_previous_open = $prev_active_submenu !== null;
+            var $submenu = findSubmenu($(this));
+            var is_being_closed = isSubmenuOpen($submenu) && isSubmenuOpen($prev_active_submenu);
+            
+            closeSubmenu($prev_active_submenu);
 
-        if ($prev_active_submenu !== null) 
-            $prev_active_submenu.removeClass("active");
-        $prev_active_submenu = $submenu;
+            if (!is_being_closed) 
+                openSubmenu($submenu);
+        });
 
-        if (is_already_open && is_previous_open) 
-            $prev_active_submenu = null;
-        else {
-            $nav.addClass("submenu-open");
-            $submenu.addClass("active");        
+        function findSubmenu($toggleBtn) {
+            return $toggleBtn.parent().next(".submenu:first");
         }
-        
-        if ($prev_active_submenu === null)
+        function isSubmenuOpen($submenu) {
+            return $submenu !== null && $submenu.hasClass("active");
+        }
+        function openSubmenu($submenu) {
+            $nav.addClass("submenu-open");
+            $submenu.addClass("active");    
+
+            $prev_active_submenu = $submenu;
+        }
+        function closeSubmenu($submenu) {
             $nav.removeClass("submenu-open");
-    });
+
+            if ($submenu !== null)
+                $submenu.removeClass("active");
+
+            $prev_active_submenu = null;
+        }
+    })();
 </script>
