@@ -40,7 +40,7 @@ function render($file, $dataArr = array()) {
 <hr>
 <div class="row">
 	<h2>Navigation - two rows</h2>
-	<p>Vertical nav with support to 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
+	<p>Vertical nav with support for 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
 		This nav is not responsive. See <a href="https://github.com/timber/timber/wiki/TimberMenu">TimberMenu in GitHub</a>.</p>
 		<?php
 render("nav--tworows.twig", array("menu" => array(
@@ -103,6 +103,21 @@ render("element--hilighted-articles.twig", array("articles" => array(
 		<p><i>Note: the vertical align css classes are in the <b>_library.scss</b> -file.</i></p>
 		<?php
 render("element--img-row--hover.twig", array("image" => "https://placehold.it/227x339", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
+	<h2>Image row with content blocks</h2>
+		<p>Only shows an even amount of columns for mobile.</p>
+		<?php
+render("element--img-row--block.twig", array("images" => array(
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel"),
+	array("image" => "https://placehold.it/227x339", "title" => "Trenssi", "desc" => "Chanel") )));
 ?>
 </div>
 <script type="text/javascript" src="../assets/js/app.js"></script>
