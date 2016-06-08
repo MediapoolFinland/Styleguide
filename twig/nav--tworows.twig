@@ -1,6 +1,6 @@
 {# NAV FIXED TOP #}
 <h3>Full width</h3>
-<nav class="nav--fixedtop">
+<nav class="nav--tworows">
     <div class="row main-container">
         <div class="small-2 columns logoimg">
             <a href="#"><img src="https://placehold.it/135x30"></a>
@@ -62,7 +62,7 @@
     (nav_fixedtop = function() {
         "use strict";
 
-        var $nav = $("nav.nav--fixedtop");
+        var $nav = $("nav.nav--tworows");
         var $previouslyOpenSubmenu = null;
 
         $(".toggle-submenu").on("click", function(event) {

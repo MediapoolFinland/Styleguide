@@ -39,10 +39,10 @@ function render($file, $dataArr = array()) {
 </div>
 <hr>
 <div class="row">
-	<h2>Navigation - fixed top</h2>
+	<h2>Navigation - two rows</h2>
 	<p></p>
 		<?php
-render("nav--fixedtop.twig", array());
+render("nav--tworows.twig", array());
 ?>
 	<h2>Row with five columns</h2>
 		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
