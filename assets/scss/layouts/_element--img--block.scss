@@ -13,20 +13,12 @@
             width: 100%;
             height: 100%; 
             top: 0; left: 0;
-            
             background-size: cover;
             background-position: 50% 50%;
         }
         .column-body {
             position: absolute;
-
-            width: 130px;
-            height: 80px;
-            right: -5px;
-            bottom: 40px;
-
             padding: 0.5em 1em;
-
             color: white;
             background-color: black;
         }
@@ -40,9 +32,11 @@
         line-height: 1.5;
 
         .block--title {
+            display: block;
             font-size: 90%;
         }
         .block--desc {
+            display: block;
             font-size: 110%;
             font-style: italic;
             font-weight: 700;
@@ -52,48 +46,24 @@
             height: 5px;
             display: block;
             margin-top: 7px;
-
             background-image: url("/assets/img/slashed-line.png");
         }
+
+        &.block--top { top: 50px; }
+        &.block--bot { bottom: 40px; }
+        &.block--left { left: -5px }
+        &.block--right { right: -5px }
+        &.block--width--three-quarters { width: 75%; }        
+        &.block--width--half { width: 50%; }
+        &.block--width--third { width: 33.3%; }
+        &.block--width--quarter { width: 25%; }        
+        &.block--height--tall { height: 9em; }
+        &.block--height--medium { height: 7em; }
+        &.block--height--short { height: 5em; }
     }
 }
-
 .element--img--block--image-2-3 {
     .image-wrapper {  
         padding-bottom: 149.25%;
-    }
-}
-.element--img--block--image-3-2 {
-    width: 630px;
-    height: 420px;
-
-    .image-wrapper {  
-        padding-bottom: 66.8%;
-
-        .column-body {
-            width: 200px;
-            height: 115px;
-            left: -5px;
-            top: 40px;
-            
-            text-align: center;
-            font-style: italic;
-        } 
-    } 
-}
-.element--img--block--image-2-3--tall {
-    width: 640px;
-    height: 960px;
-
-    .image-wrapper {
-        padding-bottom: 150.1%;
-
-        .column-body {
-            top: 50px;
-            width: 200px;
-            height: 140px;
-
-            text-align: right;
-        } 
     }
 }

@@ -115,7 +115,16 @@ render("element--img--hover.twig", array("image" => "https://placehold.it/200x30
 ?>
 
 	<h2>Image with content blocks</h2>
-		<p></p>
+	<p>Classes for block: 
+	<pre>
+	Position:
+	.block--{top|bot}
+	.block--{right|left}
+
+	Size:
+	.block--width--{three-quarters|half|third|quarter} (%)
+	.block--height--{tall|medium|short} (em)
+	</pre></p>
 		<?php
 render("element--img--block.twig", array("image" => "https://placehold.it/200x300", "title" => "Trenssi", "desc" => "Chanel"));
 ?>

@@ -1,9 +1,9 @@
 {# IMAGE WITH CONTENT BLOCK #}
-<h3>Basic version: 2/3 image</h3>
+<h3>Basic version</h3>
 <div class="element--img--block element--img--block--image-2-3">
 	<div class="image-wrapper">
 		<div class="column-image" style="background-image:url({{image}})"></div>
-		<div class="column-body block">
+		<div class="column-body block block--bot block--right block--width--three-quarters block--height--medium">
 			<span class="block--title">{{title}}</span>
 			<span class="block--desc">{{desc}}</span>
 			<span class="block--divider"></span>
@@ -11,24 +11,52 @@
 	</div>
 </div>
 
-<h3>Variation 1: 3/2 image</h3>
-<div class="element--img--block element--img--block--image-3-2">
-	<div class="image-wrapper">
-		<div class="column-image" style="background-image: url({{image}})"></div>
-		<div class="column-body block">
-			<span class="block--title">"{{title}}"</span>
-			<span class="block--divider"></span>
+<h3>Variations</h3>
+<div class="row">
+	<div class="small-6 medium-3 columns">
+		<div class="element--img--block element--img--block--image-2-3">
+			<div class="image-wrapper">
+				<div class="column-image" style="background-image: url({{image}})"></div>
+				<div class="column-body block block--top block--left block--width--half block--height--short">
+					<span class="block--title">"{{title}}"</span>
+					<span class="block--divider"></span>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-
-<h3>Variation 2: 2/3 image (tall)</h3>
-<div class="element--img--block element--img--block--image-2-3--tall">
-	<div class="image-wrapper">
-		<div class="column-image" style="background-image: url({{image}})"></div>
-		<div class="column-body block">
-			<span class="block--desc">{{desc}}</span>
-			<span class="block--divider"></span>
+	<div class="small-6 medium-3 columns">
+		<div class="element--img--block element--img--block--image-2-3">
+			<div class="image-wrapper">
+				<div class="column-image" style="background-image: url({{image}})"></div>
+				<div class="column-body block block--bot block--left block--width--half block--height--medium">
+					<span class="block--title">{{title}}</span>
+					<span class="block--desc">{{desc}}</span>
+					<span class="block--divider"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="small-6 medium-3 columns">
+		<div class="element--img--block element--img--block--image-2-3">
+			<div class="image-wrapper">
+				<div class="column-image" style="background-image: url({{image}})"></div>
+				<div class="column-body block block--top block--right block--width--three-quarters block--height--medium">
+					<span class="block--title">{{title}}</span>
+					<span class="block--desc">{{desc}}</span>
+					<span class="block--divider"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="small-6 medium-3 columns">
+		<div class="element--img--block element--img--block--image-2-3">
+			<div class="image-wrapper">
+				<div class="column-image" style="background-image: url({{image}})"></div>
+				<div class="column-body block block--bot block--right block--width--three-quarters block--height--tall">
+					<span class="block--desc">{{desc}}</span>
+					<span class="block--divider"></span>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
