@@ -29,6 +29,26 @@
 	</ul>
 </div>
 
+<h3>Horizontal blocks</h3>
+<div class="element--article-hilights element--article-hilights--horizontal-block">
+	{% for article in articles %}
+    <div class="row">
+        <div class="small-4 medium-3 large-2 columns img-container" style="background-image: url('{{ article.image }}');">
+			&nbsp;
+		</div>
+        <div class="small-8 medium-9 large-10 columns">
+            <div class="title">
+				{{ article.title }}
+            </div>            
+            <div class="text-content-container">
+                <span class="text-content">{{ article.excerpt }}</span>
+                <strong class="read-more"><a href="#">{{ readmore }}</a></strong>
+            </div>
+        </div>
+    </div>
+	{% endfor %}
+</div>
+
 <h3>Vertical blocks</h3>
 <div class="element--article-hilights element--article-hilights--vertical-block">
 	<div class="row">
@@ -45,11 +65,10 @@
 			{% endif %}
 			{# New row after every 4 elements #}
 		 	{% if i == 4 %}
-				</div><div class="row container">
+				</div><div class="row">
 				{% set i = 0 %}
 			{% endif %}
 			{% set i = i + 1 %}
-
 			<div class="small-12 medium-6 large-3 columns">
 				<div class="content-container">
 					<div class="img-container" style="background-image: url('{{ article.image }}');"></div>
@@ -65,5 +84,6 @@
 				</div>
 			</div>
 		{% endfor %}
-	</div>
+		</div><!-- /.add-table-row -->
+	</div><!-- /.row -->
 </div>
