@@ -67,7 +67,7 @@ render("nav--mobile.twig", $menu); ?>
 
 	<h2>Navigation - two rows</h2>
 		<p>Vertical nav with support for 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
-		This nav is not responsive. See <a href="https://github.com/timber/timber/wiki/TimberMenu">TimberMenu in GitHub</a>.</p>
+		This nav is not responsive.
 		<?php 
 render("nav--tworows.twig", $menu); ?>
 
