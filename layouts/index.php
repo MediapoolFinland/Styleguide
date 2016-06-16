@@ -61,34 +61,18 @@ function render($file, $dataArr = array()) {
 			array("title" => "ENG", "get_link" => "#", "classes" => array("current_page_item")) ))); ?>
 
 	<h2>Navigation - mobile</h2>
-	<p>Mobile navigation with support for submenus. Also contains a search bar, language menu and a row for social media icons.</p>
-		<?php render("nav--mobile.twig", $menu); ?>
+		<p>Mobile navigation with support for submenus. Also contains a search bar, language menu and a row for social media icons.</p>
+		<?php 
+render("nav--mobile.twig", $menu); ?>
 
 	<h2>Navigation - two rows</h2>
-	<p>Vertical nav with support for 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
+		<p>Vertical nav with support for 5 nav elements, language list and submenus. Submenus open as a second row below the main row.<br><br>
 		This nav is not responsive. See <a href="https://github.com/timber/timber/wiki/TimberMenu">TimberMenu in GitHub</a>.</p>
-		<?php render("nav--tworows.twig", $menu); ?>
-
-	<h2>Row with five columns</h2>
-		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
-		<?php
-render("row--five-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-?>
-
-	<h2>Row with three columns</h2>
-		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
-		<?php
-render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-?>
-
-	<h2>Row with two columns</h2>
-		<p>Simple 2 column block with a header image and body content. 2 variations for different image aspect ratios.</p>
-		<?php
-render("row--two-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
-?>
+		<?php 
+render("nav--tworows.twig", $menu); ?>
 
 	<h2>Styled title</h2>
-	<p>Horizontal element with blocks on top of it. Vertical alignment for titles supports only a single line of text.</p>
+		<p>Horizontal element with blocks on top of it. Vertical alignment for titles supports only a single line of text.</p>
 		<?php
 render("element--styled-title.twig", array(
 	"image_basic" => "../assets/img/slashed-line-withmargins.png",
@@ -96,15 +80,14 @@ render("element--styled-title.twig", array(
 	"title" => "This is a title", "leftblock" => "Read more", "rightblock" => "Some icons"));
 ?>
 
-	<h2>Hilighted articles</h2>
-	<p>Two articles side by side.</p>
+	<h2>Article hilights</h2>
 		<?php
-render("element--hilighted-articles.twig", array("articles" => array(
-	array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks"),
-	array("image" => "https://placehold.it/90x90", "date" => "April 13 2014 - in Personal", "title" => "Stripes for spring &amp; more beauty picks"),
-	array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "Stripes for summer"),
-	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks"),
-), "next" => "Next", "previous" => "Previous"));
+render("element--article-hilights.twig", array("articles" => array(
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks", "excerpt" => "Breakfast has always been my favourite meal of the day. I’ve always loved all the breakfast goodies such as porridge, yoghurt, fresh squeezed juices and granolas."),
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2014 - in Personal", "title" => "Stripes for spring &amp; more beauty picks", "excerpt" => "Earlier during this spring, I totally lost my breakfast appetite."),
+	array("image" => "https://placehold.it/90x90", "date" => "April 14 2015 - in Personal", "title" => "Stripes for summer", "excerpt" => "It must have been all the stress cause by work and school, but I just simply couldn’t swallow anything before lunch."),
+	array("image" => "https://placehold.it/90x90", "date" => "April 13 2016 - in Personal", "title" => "April looks", "excerpt" => "Or maybe a few sips of iced latte with vanilla, but that’s it."),
+), "next" => "Next", "previous" => "Previous", "readmore" => "Read more"));
 ?>
 
 	<h2>Image with hover active content</h2>
@@ -127,6 +110,24 @@ render("element--img--hover.twig", array("image" => "https://placehold.it/200x30
 	</pre></p>
 		<?php
 render("element--img--block.twig", array("image" => "https://placehold.it/200x300", "title" => "Trenssi", "desc" => "Chanel"));
+?>
+
+	<h2>Row with five columns</h2>
+		<p>Row where the number of columns is <b>15</b> <i>(default 12)</i>. For mobile, only 3 columns are shown.</p>
+		<?php
+render("row--five-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
+	<h2>Row with three columns</h2>
+		<p>Simple 3 column block with a header image and body content. Columns switch to 100% width on mobile. 2 variations for different image aspect ratios.</p>
+		<?php
+render("row--three-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
+?>
+
+	<h2>Row with two columns</h2>
+		<p>Simple 2 column block with a header image and body content. 2 variations for different image aspect ratios.</p>
+		<?php
+render("row--two-columns.twig", array("image" => "https://placehold.it/350x350", "body" => "<strong>Lorem ipsum doret</strong><br> ipsum hipsum hipsuli pipsuli"));
 ?>
 </div>
 <script type="text/javascript" src="../assets/js/app.js"></script>

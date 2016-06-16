@@ -1,7 +1,10 @@
-.element--hilighted-articles {
+.element--article-hilights {
+
+} 
+.element--article-hilights--two-sidebyside {
     $hilighted-article-width: 50%;
     $hilighted-article-image_size: 90px;
-    $hilighted-article-mobile: 640px;
+    $hilighted-article-mobile: 640px; 
     
     .article {
         width: $hilighted-article-width;
