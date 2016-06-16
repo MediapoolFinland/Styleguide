@@ -40,7 +40,7 @@ function render($file, $dataArr = array()) {
 <hr>
 <div class="row">
 <?php 
-	// Test code for menu
+	// Test code for navigation
 	$menu = array("menu" => array(
 		"get_items" => array(
 			array("title" => "Categories", "get_link" => "#", "classes" => array("current-menu-item"), "get_children" => array(
@@ -81,6 +81,7 @@ render("element--styled-title.twig", array(
 ?>
 
 	<h2>Article hilights</h2>
+		<p>Different variations of article hilights.</p>
 		<?php
 render("element--article-hilights.twig", array("articles" => array(
 	array("image" => "https://placehold.it/90x90", "date" => "April 13 2013 - in Personal", "title" => "March looks", "excerpt" => "Breakfast has always been my favourite meal of the day. I’ve always loved all the breakfast goodies such as porridge, yoghurt, fresh squeezed juices and granolas."),
@@ -98,16 +99,16 @@ render("element--img--hover.twig", array("image" => "https://placehold.it/200x30
 ?>
 
 	<h2>Image with content blocks</h2>
-	<p>Classes for block: 
-	<pre>
-	Position:
-	.block--{top|bot}
-	.block--{right|left}
+		<p>Classes for block: 
+		<pre>
+		Position:
+		.block--{top|bot}
+		.block--{right|left}
 
-	Size:
-	.block--width--{three-quarters|half|third|quarter} (%)
-	.block--height--{tall|medium|short} (em)
-	</pre></p>
+		Size:
+		.block--width--{three-quarters|half|third|quarter} (%)
+		.block--height--{tall|medium|short} (em)
+		</pre></p>
 		<?php
 render("element--img--block.twig", array("image" => "https://placehold.it/200x300", "title" => "Trenssi", "desc" => "Chanel"));
 ?>
