@@ -1,6 +1,7 @@
 .element--article-hilights {
 
 } 
+
 .element--article-hilights--two-sidebyside {
     $hilighted-article-width: 50%;
     $hilighted-article-image_size: 90px;
@@ -76,6 +77,42 @@
         }
         li a {
             display: block;
+        }
+    }
+}
+
+.element--article-hilights--vertical-block {
+    $border_height: 8px;
+    $tablet_breakpoint: 1024px;
+    
+    .img-container {
+        width: 100%;
+        height: 175px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .title {
+        height: 54px;
+        margin: 1em 0;
+        padding: 0 15px;
+        overflow: hidden;
+        font-size: 120%;
+        text-align: center;
+    }
+    .text-content {
+        margin-top: 1.5em;
+    }
+
+    @media screen and (max-width: $tablet_breakpoint) {
+        .row {
+            display: table;
+        }
+        .add-table-row {
+            display: table-row;
+        }
+        .columns {
+            display: table-cell;
+            margin-bottom: 30px;
         }
     }
 }

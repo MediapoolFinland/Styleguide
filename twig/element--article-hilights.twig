@@ -28,3 +28,42 @@
 		{% endfor %}
 	</ul>
 </div>
+
+<h3>Vertical blocks</h3>
+<div class="element--article-hilights element--article-hilights--vertical-block">
+	<div class="row">
+		{% set i = 0 %}
+		{% for article in articles %}
+			{# Add table row after every 2 elements. #}
+			{# This is for tablet view so that two elements side by side will be the same height. #}
+		 	{% if i % 2 == 0 %}
+				{# Close previous table row #}
+				{% if i > 0 %} 
+					</div>
+				{% endif %}
+				<div class="add-table-row">
+			{% endif %}
+			{# New row after every 4 elements #}
+		 	{% if i == 4 %}
+				</div><div class="row container">
+				{% set i = 0 %}
+			{% endif %}
+			{% set i = i + 1 %}
+
+			<div class="small-12 medium-6 large-3 columns">
+				<div class="content-container">
+					<div class="img-container" style="background-image: url('{{ article.image }}');"></div>
+					<div class="title">
+						{{ article.title }}
+					</div>
+					<div class="text-content-container">
+						<span class="text-content">
+							{{ article.excerpt }}
+						</span>
+						<strong class="luelisaa"><a href="#">{{ readmore }}</a></strong>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
