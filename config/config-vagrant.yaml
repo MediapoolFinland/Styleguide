@@ -1,0 +1,10 @@
+configs: 
+   use: 'local'
+   local:
+      'ip': "192.168.33.10"
+      'db_wp': "wpdbname"
+      'db_wp_usr': "wpdbuser"
+      'db_wp_pass': "wpdbpass"
+      'wp_folder': 'wordpress'
+      'wp_folder_theme': 'theme-folder'
+      'wp_folder_plugins': 'wp-plugins'
